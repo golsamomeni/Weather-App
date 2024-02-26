@@ -1,4 +1,4 @@
-Weather App
+##Weather App
 
 This is a simple weather application built using Python and the OpenWeatherMap API. It allows users to retrieve current weather information by providing a zip code. The backend is implemented in Python, utilizing the requests library to interact with the OpenWeatherMap API, while the frontend can be implemented using any technology capable of making HTTP requests, such as React.js.
 
