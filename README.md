@@ -1,8 +1,8 @@
-##Weather App
+__Weather App__
 
 This is a simple weather application built using Python and the OpenWeatherMap API. It allows users to retrieve current weather information by providing a zip code. The backend is implemented in Python, utilizing the requests library to interact with the OpenWeatherMap API, while the frontend can be implemented using any technology capable of making HTTP requests, such as React.js.
 
-Features
+__Features__
 
 Retrieve current weather information based on zip code input.
 Utilizes the OpenWeatherMap API to fetch weather data.
@@ -14,7 +14,7 @@ Python 3.x
 requests library (Install using pip install requests)
 OpenWeatherMap API key (Sign up and obtain an API key from OpenWeatherMap)
 
-Installation
+__Installation__
 1. Clone this repository to your local machine:
    git clone https://github.com/your-username/weather-app.git
 2. Navigate to the project directory:
@@ -25,14 +25,14 @@ Installation
 4. Install dependencies:
    pip install -r requirements.txt
 
-Usage
+__Usage__
 
 To run the application, execute the following command:
   python app.py
 
 The application will prompt you to enter a zip code. After providing the zip code, it will fetch and display the current weather information.
 
-Frontend Integration
+__Frontend Integration__
 
 If you want to integrate this backend with a frontend application, you can make HTTP POST requests to the backend API endpoint /weather with the following JSON payload:
   {
